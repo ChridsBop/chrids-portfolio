@@ -1,0 +1,59 @@
+body {
+    background: #00e4ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.thetabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+}
+.thetabs input[type="radio"] {
+    display: none;
+}
+.thetabs label {
+    padding: 25px;
+    background: #18adb5;
+    font-weight: bold;
+} 
+
+.thetabs .tab {
+    width: 100%;
+    padding: 25px;
+    background: #007bff;
+    order: 1;
+    display: none;
+}
+.thetabs .tab h2 {
+    font-size: 2em;
+}
+
+.thetabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.thetabs input[type="radio"]:checked + label {
+    background:#007bff;
+}
+
+
+.myimage{
+    position: relative;
+    left: 15%;
+}
+
+.myimage2{
+    position: relative;
+    left: 20%;
+    bottom: 15%;
+}
+
+.myheadshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
